@@ -10,7 +10,6 @@ public class CustomerMenu {
         System.out.println("Enter Id : ");
         String id = scanner.next();
         System.out.println("Enter First Name : ");
-
         String firstName = scanner.next();
         System.out.println("Enter Last Name : ");
         String lastName = scanner.next();

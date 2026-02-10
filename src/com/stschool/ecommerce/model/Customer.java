@@ -65,6 +65,8 @@ public class Customer {
                 "id='" + id + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", mobileNo='" + mobileNo + '\'' +
+                ", emailId='" + emailId + '\'' +
                 '}';
     }
 }
