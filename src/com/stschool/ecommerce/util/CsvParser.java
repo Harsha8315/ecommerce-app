@@ -13,7 +13,7 @@ public class CsvParser {
     /*
     method to convert product.csv file into list of products
      */
-    List<Product> getProductsFromCsv() throws IOException {
+   public List<Product> getProductsFromCsv() throws IOException {
         List<Product> products = new ArrayList<>();
         File file = new File("D://products.csv");
         BufferedReader br = new BufferedReader(new FileReader(file));
